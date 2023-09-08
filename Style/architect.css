@@ -99,10 +99,11 @@ nav li:hover a {
 
 /* Main section style --------------------------------- */
 
-main{
+main {
     max-width: 1440px;
     margin: 0 auto;
 }
+
 /* Feature Section Style Start ----- */
 
 
@@ -146,6 +147,52 @@ main{
     margin: 20px 0 30px;
 }
 
+/* Feature Section Style End ----- */
+
+
+/* Facts part style */
+
+.fact-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.fact-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    width: 550px;
+    margin-bottom: 100px;
+}
+
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts-card-container .card {
+    border-radius: 5px;
+    border: 1px solid #FF900E;
+    padding: 30px;
+    text-align: center;
+}
+
+.card-stats {
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.card-title {
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
 
 /* Responsive Media Quaries */
 
@@ -171,11 +218,11 @@ main{
         flex-direction: column-reverse;
         padding: 20px;
     }
-    
+
     .feature-pic {
-        grid-template-columns:1fr;
+        grid-template-columns: 1fr;
     }
-    
+
 }
 
 
@@ -195,13 +242,13 @@ main{
         margin-top: 30px;
     }
 
-      /* feature part */
-      .feature {
+    /* feature part */
+    .feature {
         flex-direction: column-reverse;
         padding: 20px;
     }
-    
+
     .feature-pic {
-        grid-template-columns:repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
