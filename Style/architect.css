@@ -139,10 +139,11 @@ main{
 }
 
 
-.feature-description {
+.feautre-description {
     color: #727272;
     font-size: 16px;
     font-weight: 400;
+    margin: 20px 0 30px;
 }
 
 
