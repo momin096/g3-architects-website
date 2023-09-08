@@ -163,7 +163,7 @@ main {
     color: #727272;
     font-size: 16px;
     font-weight: 400;
-    width: 550px;
+    max-width: 550px;
     margin-bottom: 100px;
 }
 
@@ -191,8 +191,8 @@ main {
     font-weight: 600;
 }
 
-
-
+/* sponsors */
+    
 
 /* Responsive Media Quaries */
 
@@ -223,6 +223,19 @@ main {
         grid-template-columns: 1fr;
     }
 
+
+    /* facts */
+    .facts {
+        padding: 20px;
+    }
+
+    .facts-card-container {
+        flex-direction: column;
+        justify-content: none;
+        gap: 20px;
+        padding: 0 30px;
+    }
+
 }
 
 
@@ -251,4 +264,15 @@ main {
     .feature-pic {
         grid-template-columns: repeat(2, 1fr);
     }
-}
+
+    /* facts */
+    .facts {
+        padding: 20px;
+    }
+
+    .facts-card-container {
+        flex-direction: column;
+        justify-content: none;
+        gap: 20px;
+
+    }
